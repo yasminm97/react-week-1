@@ -89,3 +89,22 @@ text-align: left;
     background-color: #f9f9f9;
   }
 }
+
+.nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li{
+  display: inline;
+  padding: 0px 10px;
+}
+.home{
+  height: 70vh;
+  width: 100vw;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.home p{
+  text-align: center;
+}
