@@ -1,11 +1,3 @@
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
 body {
   margin: 0;
@@ -19,13 +11,71 @@ h1 {
   line-height: 1.1;
 }
 
-form{
-  justify-content: center;
-  align-items: center;
+.nav{
+  width: 100%;
+  height: 10vh;
+  background-color: darkorange;
+  margin: auto;
+}
+.nav ul{
+  list-style-type: none;
+  margin: auto;
+}
+.nav h2{
+  float: left;
+  margin-right: 20px;
+  text-shadow: 1px 1px #f9f9f9;
+}
+.nav ul li{
+  float: left;
+  margin-right: 0.5em;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
+  padding: 35% 16px;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+li a:hover {
+  border-right:1px solid #fff;
+  color: #f9f9f9;
+}
+.home{
+  height: 70vh;
+  width: 100vw;
+  padding: 20px 0px;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.home p{
+  text-align: center;
+}
+.StudentsList {
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  padding: 20px;
+}
+.StudentsList ul{
+  list-style: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: large;
+}
+.footer h1{
+  text-align: center;
+}
+form{
   margin: auto;
   padding: auto;
   width: 75vw;
+  padding: 40px;
 }
 input ,button{
   width:20vw;
@@ -35,6 +85,9 @@ input ,button{
   padding: 8px;
   border: none;
   border-radius: 5px;
+}
+form button,input{
+width: 100%;
 }
 button{
   height: 40px;
@@ -48,35 +101,6 @@ button:hover{
   background-color: transparent;
   color: #fff;
 }
-.about, .services{
-  width: 100%;
-  margin-top: 40px;
-}
-.about p, .services p{
-text-align: left;
-}
-
-.main, .child{
-  color: #1a1a1a;
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
-  background-color: blanchedalmond;
-  cursor: pointer;
-}
-.main img, .child img{
-  display: none;
-  margin: auto;
-}
-.child{
-  background-color: cadetblue;
-}
-.Counter {
-  width: 100%;
-  height: 40px;
-  background-color: cornsilk;
-  margin: auto;
-}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -88,23 +112,4 @@ text-align: left;
   button {
     background-color: #f9f9f9;
   }
-}
-
-.nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.nav ul li{
-  display: inline;
-  padding: 0px 10px;
-}
-.home{
-  height: 70vh;
-  width: 100vw;
-  background-color: blanchedalmond;
-  text-align: center;
-}
-.home p{
-  text-align: center;
 }

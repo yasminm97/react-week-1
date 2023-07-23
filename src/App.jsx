@@ -1,9 +1,13 @@
+import Nav from "./components/Nav"
+import Home from "./components/Home"
+import Footer from "./components/Footer"
 
-import DisplayBtn from "./Display";
 function App() {
   return (
     <div>
-      <DisplayBtn/>
+      <Nav />
+      <Home />      
+      <Footer />
     </div>
   );
 }
